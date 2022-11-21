@@ -31,7 +31,7 @@ char pop()
 
 void print()
 {
-    struct lifo* cur;
+    struct lifo *cur;
     cur = top;
     printf("Stack:\n");
     while (cur != NULL)
