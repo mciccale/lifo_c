@@ -7,6 +7,7 @@ struct lifo {
 
 void push(char c);
 char pop();
+char peek();
 void print();
 
 #endif

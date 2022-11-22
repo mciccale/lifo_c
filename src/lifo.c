@@ -29,6 +29,11 @@ char pop()
     return data;
 }
 
+char peek()
+{
+    return top->data;
+}
+
 void print()
 {
     struct lifo *cur;
